@@ -25,6 +25,12 @@ body {
     margin-right: 20px;
 }
 
+@media (max-width: 520px) {
+    .headercont h1 {
+        font-size: larger;
+    }
+}
+
 /* Navbar */
 
 nav {
@@ -36,6 +42,7 @@ nav {
     height: 50px;
     overflow: hidden;
     transition: .3s ease;
+    border-bottom: solid 2px #ebebeb;
 }
 
 nav.open {
@@ -99,7 +106,7 @@ nav.open {
         display: none;
     }
     
-    nav {
+    nav, nav.open {
         max-height: 50px;
         overflow: hidden;
     }
@@ -110,5 +117,8 @@ nav.open {
         display: none;
     }
 
-
+    .nav-items {
+        justify-content: flex-end;
+    }
 }
+

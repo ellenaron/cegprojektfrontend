@@ -1,0 +1,32 @@
+label{
+    display: block;
+    margin-top: 15px;  
+    font-weight: bold;
+
+}
+section{
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-family: inherit;
+}
+button{
+    margin-top: 20px;    
+    padding: 10px 20px; 
+    background-color: #0077cc;  
+    color: white; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #0055cc;
+}

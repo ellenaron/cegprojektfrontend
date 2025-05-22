@@ -43,6 +43,7 @@ nav {
     overflow: hidden;
     transition: .3s ease;
     border-bottom: solid 2px #ebebeb;
+    background-color: #fefefe;
 }
 
 nav.open {
